@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Redirect } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 const Password = () => {
     const [Box_1, setBox_1] = useState("");
     const [Box_2, setBox_2] = useState("");
@@ -8,8 +8,8 @@ const Password = () => {
     const [Box_4, setBox_4] = useState("");
     const [Box_5, setBox_5] = useState("");
     const [Box_6, setBox_6] = useState("");
-    //const nextRef = useRef < HTMLInputElement > ([]);
-    var correct = true;
+    let correct = true;
+    let history = useHistory();
     const valReset = () => {
         setBox_1("");
         setBox_2("");
@@ -54,9 +54,7 @@ const Password = () => {
         event.preventDefault();
         correct = correct && (Box_1 === "7") && (Box_2 === "5") && (Box_3 === "3") && (Box_4 === "2") && (Box_5 === "5") && (Box_6 === "7")
         if (correct) {
-            return (
-                <Redirect to="/clubroom" />
-            );
+            history.push('/clubroom')
         }
         else valReset();
     };

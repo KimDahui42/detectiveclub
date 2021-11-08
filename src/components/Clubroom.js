@@ -1,4 +1,4 @@
 function Clubroom() {
-    return <img src="../images/clubroom.png" alt="µ¿¹æ"/>
+    return <img src="../images/clubroom.png" alt="ë™ë°©"/>
 }
 export default Clubroom;
