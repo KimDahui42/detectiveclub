@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import "../styles/Password.css";
+
 const Password = () => {
     const [Box_1, setBox_1] = useState("");
     const [Box_2, setBox_2] = useState("");
@@ -54,26 +56,30 @@ const Password = () => {
         event.preventDefault();
         correct = correct && (Box_1 === "7") && (Box_2 === "5") && (Box_3 === "3") && (Box_4 === "2") && (Box_5 === "5") && (Box_6 === "7")
         if (correct) {
-            history.push('/clubroom')
+            history.push('/detectiveclub/clubroom')
         }
         else valReset();
     };
     return (
+        <section className="container">
         <div className="password__container">
             <h1>비밀번호를 입력하세요</h1>
-            <form onSubmit={onSubmit}>
-                <input name="Box_1" type="text" maxLength="1" required value={Box_1} onChange={onChange} />
-                <input name="Box_2" type="text" maxLength="1" required value={Box_2} onChange={onChange} />
-                <input name="Box_3" type="text" maxLength="1" required value={Box_3} onChange={onChange} />
-                <input name="Box_4" type="text" maxLength="1" required value={Box_4} onChange={onChange} />
-                <input name="Box_5" type="text" maxLength="1" required value={Box_5} onChange={onChange} />
-                <input name="Box_6" type="text" maxLength="1" required value={Box_6} onChange={onChange} />
-                <div className="password__action">
-                    <input type="submit" value="Enter"/>
-                    <input type="reset" value="reset" onClick={valReset} />
-                </div>
+                <form onSubmit={onSubmit}>
+                    <div className="textBoxes">
+                        <input name="Box_1" type="text" maxLength="1" required value={Box_1} onChange={onChange} />
+                        <input name="Box_2" type="text" maxLength="1" required value={Box_2} onChange={onChange} />
+                        <input name="Box_3" type="text" maxLength="1" required value={Box_3} onChange={onChange} />
+                        <input name="Box_4" type="text" maxLength="1" required value={Box_4} onChange={onChange} />
+                        <input name="Box_5" type="text" maxLength="1" required value={Box_5} onChange={onChange} />
+                        <input name="Box_6" type="text" maxLength="1" required value={Box_6} onChange={onChange} />
+                    </div>
+                    <div className="password__action">
+                        <input type="submit" value="Enter" className="password__button"/>
+                        <input type="reset" value="reset" className="password__button" onClick={valReset} />
+                    </div>
             </form>
-        </div>
+            </div>
+            </section>
     );
 };
 export default Password;

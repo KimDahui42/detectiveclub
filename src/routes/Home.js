@@ -1,17 +1,18 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Password from "../components/Password";
+import { Link } from "react-router-dom";
+import "../styles/Home.css";
 
 function Home() {
     return (
         <section className="container">
-            <div className="home__door">
+            <div className="home_door">
                 <span className="home_doorText">
-                    <Link to='/passwd'>환영합니다</Link>
-                    <Route path="/passwd" component={Password} />
+                    <Link to='/detectiveclub/passwd'>환영합니다</Link>
                 </span>
             </div>
         </section>
+
+
     );
 }
 export default Home;
