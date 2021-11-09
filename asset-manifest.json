@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/detectiveclub/static/css/main.e237a87f.chunk.css",
-    "main.js": "/detectiveclub/static/js/main.720ddd2e.chunk.js",
-    "main.js.map": "/detectiveclub/static/js/main.720ddd2e.chunk.js.map",
+    "main.css": "/detectiveclub/static/css/main.e4dcd896.chunk.css",
+    "main.js": "/detectiveclub/static/js/main.26ec64bd.chunk.js",
+    "main.js.map": "/detectiveclub/static/js/main.26ec64bd.chunk.js.map",
     "runtime-main.js": "/detectiveclub/static/js/runtime-main.79791f2e.js",
     "runtime-main.js.map": "/detectiveclub/static/js/runtime-main.79791f2e.js.map",
     "static/js/2.cdbaacb5.chunk.js": "/detectiveclub/static/js/2.cdbaacb5.chunk.js",
     "static/js/2.cdbaacb5.chunk.js.map": "/detectiveclub/static/js/2.cdbaacb5.chunk.js.map",
     "index.html": "/detectiveclub/index.html",
-    "static/css/main.e237a87f.chunk.css.map": "/detectiveclub/static/css/main.e237a87f.chunk.css.map",
-    "static/js/2.cdbaacb5.chunk.js.LICENSE.txt": "/detectiveclub/static/js/2.cdbaacb5.chunk.js.LICENSE.txt"
+    "static/css/main.e4dcd896.chunk.css.map": "/detectiveclub/static/css/main.e4dcd896.chunk.css.map",
+    "static/js/2.cdbaacb5.chunk.js.LICENSE.txt": "/detectiveclub/static/js/2.cdbaacb5.chunk.js.LICENSE.txt",
+    "static/media/동아리실.c1b0120e.png": "/detectiveclub/static/media/동아리실.c1b0120e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.79791f2e.js",
     "static/js/2.cdbaacb5.chunk.js",
-    "static/css/main.e237a87f.chunk.css",
-    "static/js/main.720ddd2e.chunk.js"
+    "static/css/main.e4dcd896.chunk.css",
+    "static/js/main.26ec64bd.chunk.js"
   ]
 }
