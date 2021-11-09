@@ -15,15 +15,14 @@
         width: 100%;
     }
 }
-    .nav a {
-        opacity:50%;
-        text-decoration: none;
-        color: #0008fc;
-        text-transform: uppercase;
-        font-size: 12px;
-        text-align: center;
-        font-weight: 600;
-    }
+.nav a {
+    text-decoration: none;
+    color: rgba( 255, 255, 255, 0.5 );
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+}
         .nav a:not(:last-child) {
             margin-bottom: 20px;
         }
