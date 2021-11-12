@@ -1,0 +1,79 @@
+{
+  "members": [
+    {
+      "id":"./images/un.jpg", 
+      "name": "박지윤",
+      "sex": "女",
+      "birth": {
+        "year": "1979",
+        "month": "03",
+        "day": "23"
+      },
+      "bloodtype": "B",
+      "subjects": [ "세계지리", "국어" ],
+      "dream": "<여고추리반> 조력자",
+      "places": [ "교실 창가" ],
+      "motivated": "원래부터 추리매니아"
+    },
+    {
+      "id": "./images/deux.jpg",
+      "name": "장도연",
+      "sex": "女",
+      "birth": {
+        "year": "1985",
+        "month": "03",
+        "day": "10"
+      },
+      "bloodtype": "A",
+      "subjects": [ "가정", "영어" ],
+      "dream": "<여고추리반> 가장 의욕 넘치는 학생",
+      "places": [ "주차장 구석" ],
+      "motivated": "마침 제안이 왔고 호기심이 생겨서"
+    },
+    {
+      "id": "./images/trois.jpg",
+      "name": "재재",
+      "sex": "女",
+      "birth": {
+        "year": "1990",
+        "month": "09",
+        "day": "07"
+      },
+      "bloodtype": "O",
+      "subjects": [ "미술" ],
+      "dream": "<여고추리반> 의 결정적 한 방",
+      "places": [ "야자실", "구령대", "벤치" ],
+      "motivated": "무료한 일상의 한줄기 빛으로 다가와서"
+    },
+    {
+      "id": "./images/quatre.jpg",
+      "name": "비비",
+      "sex": "女",
+      "birth": {
+        "year": "1998",
+        "month": "09",
+        "day": "27"
+      },
+      "bloodtype": "A",
+      "subjects": [ "영어", "일본어" ],
+      "dream": "<여고추리반> 연기력 한방",
+      "places": [ "도서관" ],
+      "motivated": "완전 재미있을 것 같아서"
+    },
+    {
+      "id": "./images/cinq.jpg",
+      "name": "최예나",
+      "sex": "女",
+      "birth": {
+        "year": "1999",
+        "month": "09",
+        "day": "29"
+      },
+      "bloodtype": "A",
+      "subjects": [ "체육" ],
+      "dream": "<여고추리반> 의 브레인!",
+      "places": [ "급식실", "운동장" ],
+      "motivated": "악당들을 다 물리치고 싶어서"
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 import React from "react";
 import roomView from "../images/동아리실.png";
-import "../styles/Clubroom.css";
+import { Link } from "react-router-dom";
 
 function Clubroom() {
     return (
         <section className="container">
-            <div className="clubrooom__container">
-                <img src={roomView} alt="동방"/>
-            </div>
+            <Link to="/detectiveclub/clubmembers" >
+                <div className="clubrooom__container">
+                    <img src={roomView} alt="동방" />
+                </div>
+            </Link>
         </section>
     );
 }
